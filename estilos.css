@@ -1,0 +1,69 @@
+/*Mi pagina de estilos */
+
+body {
+background-color: aquamarine;
+}
+
+
+img {
+  float: left;
+  vertical-align: middle;
+  border: double;
+  padding: 5px;
+  margin: 15px;
+  width: 320px;
+  height: 200px;
+
+}
+
+
+.button {
+    border: coral;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .button1 {background-color: green;} /* Green */
+  .button2 {background-color: #ba3200;} /* Blue */
+
+  h1 {
+    border: solid 5px;
+    text-align:center;
+    border-color: #ba3200;
+    font-size: 150%;   
+    margin-top: 20px;
+    padding: 10px;
+  }
+
+  div {
+    border: 10px solid coral;
+    width: 100px;
+  }
+
+nav{
+  padding: 20px;
+  border: #ba3200;
+}
+
+  section {
+    background-color: salmon;
+    max-width: 300px;
+    border: 15px solid blueviolet;
+    padding: 50px;
+    margin: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .idsecnav {
+    background-color: limegreen;
+    border: 5px solid blueviolet;
+    padding: 10px;
+    margin: 20px;
+    font-family:Arial;
+  }

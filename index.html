@@ -8,48 +8,42 @@
     <title>Curriculum Vitae</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href= "estilos.css">
-    <script src="js/server.js"></script>
+    <script src="js/javascript.js"></script>
 
 </head>
 
 <body>
-    <h1>
-        <nav>
-            <a href="datospers.html">Datos Personales</a>    
-            <a href="">Estudios</a>
-            <a href="">Contacto</a>
-        </nav>
-    </h1>
+    <h1>Curriculum Vitae</h1>
     
     <section>
-        <h1>El title es el nombre de la pagina</h1>
-        <ul>
-            <li>Elemento1</li>
-            <li>Elemento2</li>
-        </ul>
-        
-        <a target="_self" href="imagenes.html">imagenes</a>
-        <br>
-        
-        <button class="button button1">Green</button>
-        <button class="button button2">Blue</button>
+        <h1>Links de información</h1>
+        <nav>
+            <a href="datospers.html">Datos Personales</a>    
+            <a href="estudios.html">Estudios</a>
+            <a href="#frmcontac">Contacto</a>
+        </nav>
+                
+       
     </section>
-    
-    
-    <hr>
 
-<div>
-    <form action="" method="post">
+    <hr>
+<section id="idsecnav">
+    <h2>Formulario Contacto</h2>
+    <form id="frmcontac" action="" method="post">
         <label for="nombre">Nombre:</label>
         <input type="text" name="nombre" placeholder="Pone nombre">
         <br>
+        <label for="apellido">Apellido:</label>
+        <input type="text" name="apellido" placeholder="Pon Apellido">
         <br>
-        <input type="button" value="mmm">
-        <br>
+        <label for="mail">Email:</label>
+        <input type="email" name="mail" placeholder="Pon email">
+
         <input type="submit" value="Enviar datos">
     </form>
-</div>
 
+</section>
+   
     <hr>
     <a href="#top">Go to top</a>
 </body>
